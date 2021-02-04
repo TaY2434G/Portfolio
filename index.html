@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TaY's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- .gnav -->
+    <nav class="gnav" class="fixed" style="background-color:gray">
+      <ul class="gnav-list">
+        <li class="gnav-item"><a class="gnav-link" href="#works-section">WORKS</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#about-section">ABOUT</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#skill-section">SKILL</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#contact-section">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- /.gnav -->
+
+    <!-- .header -->
+    <header class="header">
+      <h1 class="logo">
+        <div class="logo-title">TAKAMITSU YAMADA</div>
+        <div class="logo-subtitle">PORTFOLIO</div>
+      </h1>
+    </header>
+    <!-- /.header -->
+
+    <main class="content">
+
+      <!-- .works-section -->
+      <section class="works-section section" id="works-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">WORKS</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              PHP + Bootstrapで製作したECサイト
+            </p>
+          </div>
+          <div class="section-body feature">
+            <div class="feature-item">
+              <div class="feature-image-wrapper">
+                <a href="https://taysapp.herokuapp.com/" target="_blank" class="hover-action"><img clas="feature-image"
+                    src="img/feature/TaY's_Market.png" alt=""></a>
+              </div>
+              <div class="feature-body">
+                <p>
+                  <span class="text-bold">サイト名：</span><br>TaY's Market<br><a href="https://taysapp.herokuapp.com/" target="_blank">https://taysapp.herokuapp.com/</a></p>
+                <p><span class="text-bold">使用技術：</span><br>PHP / Bootstrap / Font Awesome</p>
+                <p><span class="text-bold">コメント：</span><br>
+                    初めて自分で制作した作品です。バックエンドはPHPでスクラッチ開発、フロントエンドはBootstrapで整え、アイコンはFont Awesomeを利用しました。
+                </p>
+                <p><span class="text-bold">機能説明：</span><br>
+                    ○会員登録機能：名前やメールアドレス等の会員情報を登録。<br/>
+                    ○ログイン機能：会員登録したメールアドレス、パスワードを用いてログイン。<br/>
+                    ○ログアウト機能：サイトからログアウトする機能。<br/>
+                    ○カート機能：商品をカートに追加する機能。個数変更や削除ができる。<br/>
+                    ○購入機能：カートに入れた商品を購入する機能。ログインしていればお客様情報の確認をして購入、ゲストの場合は名前、住所等のお客様情報を入力してから購入。購入後はカートの中身が空になる。<br/>
+                    ○メール送信機能（未実装）：購入した商品情報等を登録されたアドレスに送信する機能。不具合により現在停止中。<br/>
+                </p>
+                <p><span class="text-bold">制作した経緯：</span><br>
+                   PHPを勉強するにあたり、目標となる制作物をECサイトにしました。理由は普段何気なく利用しているamazonや楽天等のショッピングサイトの、サーバーサイドの動きを自分で作りながら勉強したいを思ったからです。<br/>
+                   また、現在PHPではLaravelやCakePHP等のフレームワークを利用すればログイン機能などは簡単に実装できます。ですが私は、サーバーサイドの動きを1から実装し理解を深めたいという考えで、敢えてフレームワークは用いませんでした。<br/><br/>
+                   (あくまで「PHPへの理解を深めたい」がメインのため、CSSに関してはBootstrapを用いました)
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.works-section -->
+
+      <!-- .about-section -->
+      <section class="about-section section" id="about-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">ABOUT</h2>
+          </div>
+
+          <div class="section-body about">
+            <div class="about-item">
+              <div class="about-image-wrapper">
+                <img class="about-image lazyload fadein" data-src="img/about/about.png" alt="">
+              </div>
+              <div class="about-body">
+                <p>
+                  名前：山田貴光（やまだ たかみつ）<br>
+                  年齢：21才
+                </p>
+                <p>
+                  現在は情報系大学に通いながら独学でプログラミングを学んでいます。大学入学を機にプログラミングについて学び始め、
+                  世の中のシステム、サービスのバックエンドの動きを知る過程で「ユーザーの真の課題を解決するシステムを作りたい」と思う様になり、
+                  エンジニアを目指し始めました。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.about-section -->
+
+      <!-- .skill-section -->
+      <section class="skill-section section" id="skill-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">SKILL</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              ほぼ独学です。参考書やProgate、paiza等の学習サイトを利用しています。
+            </p>
+          </div>
+          <div class="section-body skill">
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/php.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">PHP</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate3"></div>
+                  </div>
+                  <p>
+                    基本構文やクラス、関数など基礎を一通り理解。</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/javascript.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">JavaScript</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate2"></div>
+                  </div>
+                  <p>
+                    基礎を理解。簡単なゲームを制作した経験あり。</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/bootstrap.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Bootstrap</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate2"></div>
+                  </div>
+                  <p>
+                    プルダウンメニューやナビゲーションバーの実装、グリッドシステムについて理解。</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-image-wrapper">
+                  <img class="skill-image" src="img/skill/github-icon.png" alt="">
+                </div>
+                <div class="skill-body">
+                  <h3 class="skill-title">Github</h3>
+                  <div class="skill-rating rating">
+                    <div class="rate rate2"></div>
+                  </div>
+                  <p>
+                    基本操作（add、commit、push、clone等）について理解。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.skill-section -->
+
+      <!-- .contact-section -->
+      <section class="contact-section section" id="contact-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">CONTACT</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              お問い合わせは、<br class="sp-only">Twitterかメールでお願いいたします。
+            </p>
+          </div>
+          <div class="section-body contact">
+            <ul class="contact-list">
+              <li class="contact-item">
+                <a class="contact-link" href="https://twitter.com/__n_ne_k" target="_blank"><img class="contact-image"
+                    src="img/contact/icon_tw.png" alt=""></a>
+              </li>
+            </ul>
+            <div class="contact-text">negmxg27@gmail.com</div>
+          </div>
+        </div>
+      </section>
+      <!-- /.contact-section -->
+
+    </main>
+
+    <!-- .footer -->
+    <footer class="footer">
+      <div class="page-top" id="js-page-top">
+        トップへもどる
+      </div>
+      <div class="inner">
+        <div class="copyright">Copyright&copy;TAKAMITSU YAMADA. All Rights Reserved.</div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-setup.js"></script>
+  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
